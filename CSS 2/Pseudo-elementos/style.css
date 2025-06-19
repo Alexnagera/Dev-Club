@@ -1,0 +1,17 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 37px;
+}
+a{
+    color: blue;
+}
+a::after{
+    content: "🫠";
+}
+a::before{
+    content: "😁";
+}
